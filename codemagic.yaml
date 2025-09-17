@@ -27,7 +27,7 @@ workflows:
           
       - name: Build ipa for distribution
         script: |
-        xcode-project build-ipa \
+          xcode-project build-ipa \
           --project "HotNote.xcodeproj" \
           --scheme "$XCODE_SCHEME"
         
